@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="webroot/js"/>
+	<classpathentry excluding="webroot/js/|extjs/" kind="src" path=""/>
+	<classpathentry kind="src" path="extjs"/>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.USER_LIBRARY/Ext"/>
+</classpath>

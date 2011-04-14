@@ -1,0 +1,140 @@
+strong {
+	font-weight: bold;
+}
+
+.contentBody, body.mceContentBody, .contentBody td, #tinymce td,  .contentBody pre, #tinymce pre {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.contentBody, body.mceContentBody {
+	color: #000048;
+    background: #FFF;
+}
+
+.contentBody body.mceForceColors {
+    background: #FFF;
+    color: #000;
+}
+
+.contentBody h1{
+    font-size: 1.6em;
+	margin-bottom: 13.4px;
+}
+
+.contentBody h2{
+    font-size: 1.4em;
+    margin-top: 12.45px;
+    margin-bottom: 12.45px;
+}
+
+.contentBody h3 {
+    font-size: 1.12em;
+    margin-top: 11.7px;
+    margin-bottom: 11.7px;	
+}
+
+.contentBody h4{
+    font-size: 1em
+}
+
+.contentBody h5{
+    font-size: .83em
+}
+
+.contentBody h6{
+    font-size: .75em
+}
+
+.contentBody p {
+	padding: 0px;
+	margin: 0px;
+}
+
+.mceItemTable, .mceItemTable td, .mceItemTable th, .mceItemTable caption, .mceItemVisualAid {
+    border: 1px dashed #BBB;
+}
+
+a.mceItemAnchor {
+    display: inline-block;
+    width: 11px !important;
+    height: 11px !important;
+    background: url(img/items.gif) no-repeat 0 0;
+}
+
+td.mceSelected, th.mceSelected {
+    background-color: #3399ff !important
+}
+
+.contentBody img{
+    border: 0;
+}
+
+.contentBody table{
+    cursor: default
+}
+
+.contentBody table td, .contentBody table th {
+    cursor: text
+}
+
+.contentBody ins {
+    border-bottom: 1px solid green;
+    text-decoration: none;
+    color: green
+}
+
+.contentBody del{
+    color: red;
+    text-decoration: line-through
+}
+
+.contentBody cite{
+    border-bottom: 1px dashed blue
+}
+
+.contentBody acronym{
+    border-bottom: 1px dotted #CCC;
+    cursor: help
+}
+
+.contentBody abbr{
+    border-bottom: 1px dashed #CCC;
+    cursor: help
+}
+
+/* IE */ * html body {
+    scrollbar-3dlight-color: #F0F0EE;
+    scrollbar-arrow-color: #676662;
+    scrollbar-base-color: #F0F0EE;
+    scrollbar-darkshadow-color: #DDD;
+    scrollbar-face-color: #E0E0DD;
+    scrollbar-highlight-color: #F0F0EE;
+    scrollbar-shadow-color: #F0F0EE;
+    scrollbar-track-color: #F5F5F5;
+}
+
+img:-moz-broken {
+    -moz-force-broken-image-icon: 1;
+    width: 24px;
+    height: 24px
+}
+
+font[ face = mceinline] {
+    font-family: inherit !important
+}
+
+.contentBody li{
+    display: list-item !important;
+    list-style: disc !important;
+    list-style-position: inside !important;
+	margin-left: 5px;
+	margin-bottom: 3px;
+	margin-top: 3px;
+}
+
+.contentBody ul{
+	padding-left: 5px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}

@@ -1,0 +1,37 @@
+/*
+	These are examples of styles for the button icons
+*/
+.x-edit-wordpaste {background: url(../img/document-word-text.png) 0 0 no-repeat !important;}
+.x-edit-table {background: url(../img/table.png) 0 0 no-repeat !important;}
+.x-edit-hr {background: url(../img/edit-rule.png) 0 0 no-repeat !important;}
+.x-edit-indent {background: url(../img/edit-indent.png) 0 0 no-repeat !important;}
+.x-edit-char {background: url(../img/edit-char.png) 0 0 no-repeat !important;}
+.x-edit-outdent {background: url(../img/edit-outdent.png) 0 0 no-repeat !important;}
+.x-edit-subscript {background: url(../img/text_sub.png) 0 0 no-repeat !important;}
+.x-edit-superscript {background: url(../img/text_super.png) 0 0 no-repeat !important;}
+.x-edit-removeFormat {background: url(../img/exclamation.png) 0 0 no-repeat !important;}
+
+/*
+	These styles are used for the character map
+*/
+.char-item {
+	float: left; 
+	border: 1px solid #99BBE8; 
+	margin: 3px; 
+	text-align: center; 
+	vertical-align: middle; 
+	width: 20px; 
+	height: 20px; 
+	font-size: 14px;
+	color: #15428B;
+	cursor: pointer;
+}
+
+.char-item.x-view-selected {
+	background-color: #777;
+}
+
+.char-over {
+	border: 1px solid #15428B;
+	background-color:#d0def0;
+}

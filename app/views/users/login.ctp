@@ -1,0 +1,1 @@
+{success: <?php echo $success;?>}

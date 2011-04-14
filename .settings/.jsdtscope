@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.WebProject">
+		<attributes>
+			<attribute name="hide" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.baseBrowserLibrary"/>
+	<classpathentry kind="src" path="app/webroot/js"/>
+	<classpathentry kind="src" path="cake/tests/test_app/plugins/plugin_js/vendors/js"/>
+	<classpathentry kind="src" path="cake/tests/test_app/plugins/test_plugin/vendors/js/test_plugin"/>
+	<classpathentry excluding="lib/tiny_mce/plugins/noneditable/|lib/tiny_mce/plugins/advhr/langs/|lib/ext_3.1/|lib/tiny_mce/plugins/searchreplace/|lib/tiny_mce/plugins/visualchars/|lib/tiny_mce/plugins/paste/langs/|lib/tiny_mce/plugins/advlink/js/|lib/tiny_mce/plugins/template/|lib/tiny_mce/plugins/pagebreak/|lib/tiny_mce/plugins/directionality/|lib/tiny_mce/plugins/table/langs/|lib/tiny_mce/plugins/media/js/|lib/tiny_mce/plugins/fullpage/langs/|lib/tiny_mce/plugins/spellchecker/|lib/tiny_mce/plugins/inlinepopups/|lib/tiny_mce/plugins/autosave/|lib/tiny_mce/plugins/table/js/|lib/tiny_mce/plugins/searchreplace/langs/|lib/tiny_mce/|lib/tiny_mce/plugins/emotions/langs/|lib/tiny_mce/plugins/paste/|lib/tiny_mce/plugins/style/|lib/tiny_mce/themes/simple/|lib/tiny_mce/plugins/xhtmlxtras/langs/|lib/ext_3.1/ux/Statusbar/|lib/tiny_mce/plugins/template/js/|lib/tiny_mce/plugins/example/js/|lib/tiny_mce/plugins/emotions/|lib/tiny_mce/plugins/preview/jscripts/|lib/tiny_mce/plugins/template/langs/|lib/tiny_mce/plugins/simplepaste/|lib/tiny_mce/plugins/fullpage/|lib/tiny_mce/plugins/bbcode/|lib/tiny_mce/plugins/print/|lib/tiny_mce/plugins/iespell/|lib/tiny_mce/plugins/layer/|lib/tiny_mce/plugins/paste/js/|lib/ext_3.1/ux/Spotlight/|lib/tiny_mce/themes/simple/langs/|lib/tiny_mce/plugins/searchreplace/js/|lib/tiny_mce/utils/|lib/tiny_mce/plugins/autosave/langs/|lib/tiny_mce/themes/advanced/|lib/tiny_mce/plugins/style/langs/|lib/tiny_mce/plugins/advhr/|lib/tiny_mce/plugins/save/|lib/tiny_mce/plugins/wordcount/|lib/tiny_mce/langs/|lib/tiny_mce/plugins/contextmenu/|lib/tiny_mce/plugins/media/langs/|lib/ext_3.1/ux/SwfUploadPanel/|lib/tiny_mce/plugins/table/|lib/tiny_mce/plugins/advlist/|lib/tiny_mce/plugins/legacyoutput/|lib/ext_3.1/locale/|lib/tiny_mce/plugins/advlink/|lib/jQuery/|lib/tiny_mce/plugins/media/|lib/tiny_mce/plugins/preview/|lib/tiny_mce/plugins/nonbreaking/|lib/tiny_mce/plugins/advimage/js/|lib/tiny_mce/plugins/autoresize/|lib/tiny_mce/plugins/advlink/langs/|lib/tiny_mce/plugins/xhtmlxtras/js/|lib/tiny_mce/plugins/xhtmlxtras/|lib/tiny_mce/plugins/insertdatetime/|lib/tiny_mce/plugins/example/langs/|lib/tiny_mce/plugins/tabfocus/|lib/tiny_mce/plugins/advimage/langs/|lib/tiny_mce/plugins/emotions/js/|lib/ext_3.1/ux/UploadDialog/locale/|lib/tiny_mce/plugins/advimage/|lib/tiny_mce/plugins/example/|lib/tiny_mce/plugins/fullscreen/|lib/tiny_mce/plugins/fullpage/js/|lib/tiny_mce/themes/advanced/langs/|lib/ext_3.1/ux/UploadDialog/|lib/tiny_mce/plugins/advhr/js/|lib/tiny_mce/themes/advanced/js/|lib/tiny_mce/plugins/style/js/" kind="src" path="vendors/js/ext.ux.TinyMCE_demo"/>
+	<classpathentry excluding="ux/Statusbar/|ux/Spotlight/|ux/SwfUploadPanel/|locale/|ux/UploadDialog/locale/|ux/UploadDialog/" kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/ext_3.1"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/ext_3.1/locale"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/ext_3.1/ux/Spotlight"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/ext_3.1/ux/Statusbar"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/ext_3.1/ux/SwfUploadPanel"/>
+	<classpathentry excluding="locale/" kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/ext_3.1/ux/UploadDialog"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/ext_3.1/ux/UploadDialog/locale"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/jQuery"/>
+	<classpathentry excluding="plugins/noneditable/|plugins/advhr/langs/|plugins/searchreplace/|plugins/visualchars/|plugins/paste/langs/|plugins/advlink/js/|plugins/template/|plugins/pagebreak/|plugins/directionality/|plugins/table/langs/|plugins/media/js/|plugins/fullpage/langs/|plugins/spellchecker/|plugins/inlinepopups/|plugins/autosave/|plugins/table/js/|plugins/searchreplace/langs/|plugins/emotions/langs/|plugins/paste/|plugins/style/|themes/simple/|plugins/xhtmlxtras/langs/|plugins/template/js/|plugins/example/js/|plugins/emotions/|plugins/preview/jscripts/|plugins/template/langs/|plugins/simplepaste/|plugins/fullpage/|plugins/bbcode/|plugins/print/|plugins/iespell/|plugins/layer/|plugins/paste/js/|themes/simple/langs/|plugins/searchreplace/js/|utils/|plugins/autosave/langs/|themes/advanced/|plugins/style/langs/|plugins/advhr/|plugins/save/|plugins/wordcount/|langs/|plugins/contextmenu/|plugins/media/langs/|plugins/table/|plugins/advlist/|plugins/legacyoutput/|plugins/advlink/|plugins/media/|plugins/preview/|plugins/nonbreaking/|plugins/advimage/js/|plugins/autoresize/|plugins/advlink/langs/|plugins/xhtmlxtras/js/|plugins/xhtmlxtras/|plugins/insertdatetime/|plugins/example/langs/|plugins/tabfocus/|plugins/advimage/langs/|plugins/emotions/js/|plugins/advimage/|plugins/example/|plugins/fullscreen/|plugins/fullpage/js/|themes/advanced/langs/|plugins/advhr/js/|themes/advanced/js/|plugins/style/js/" kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/langs"/>
+	<classpathentry excluding="langs/|js/" kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/advhr"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/advhr/js"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/advhr/langs"/>
+	<classpathentry excluding="js/|langs/" kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/advimage"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/advimage/js"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/advimage/langs"/>
+	<classpathentry excluding="js/|langs/" kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/advlink"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/advlink/js"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/advlink/langs"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/advlist"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/autoresize"/>
+	<classpathentry excluding="langs/" kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/autosave"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/autosave/langs"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/bbcode"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/contextmenu"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/directionality"/>
+	<classpathentry excluding="langs/|js/" kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/emotions"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/emotions/js"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/emotions/langs"/>
+	<classpathentry excluding="js/|langs/" kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/example"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/example/js"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/example/langs"/>
+	<classpathentry excluding="langs/|js/" kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/fullpage"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/fullpage/js"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/fullpage/langs"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/fullscreen"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/iespell"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/inlinepopups"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/insertdatetime"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/layer"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/legacyoutput"/>
+	<classpathentry excluding="js/|langs/" kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/media"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/media/js"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/media/langs"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/nonbreaking"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/noneditable"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/pagebreak"/>
+	<classpathentry excluding="langs/|js/" kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/paste"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/paste/js"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/paste/langs"/>
+	<classpathentry excluding="jscripts/" kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/preview"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/preview/jscripts"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/print"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/save"/>
+	<classpathentry excluding="langs/|js/" kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/searchreplace"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/searchreplace/js"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/searchreplace/langs"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/simplepaste"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/spellchecker"/>
+	<classpathentry excluding="langs/|js/" kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/style"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/style/js"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/style/langs"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/tabfocus"/>
+	<classpathentry excluding="langs/|js/" kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/table"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/table/js"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/table/langs"/>
+	<classpathentry excluding="js/|langs/" kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/template"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/template/js"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/template/langs"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/visualchars"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/wordcount"/>
+	<classpathentry excluding="langs/|js/" kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/xhtmlxtras"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/xhtmlxtras/js"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/plugins/xhtmlxtras/langs"/>
+	<classpathentry excluding="langs/|js/" kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/themes/advanced"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/themes/advanced/js"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/themes/advanced/langs"/>
+	<classpathentry excluding="langs/" kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/themes/simple"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/themes/simple/langs"/>
+	<classpathentry kind="src" path="vendors/js/ext.ux.TinyMCE_demo/lib/tiny_mce/utils"/>
+	<classpathentry excluding="src/data/|examples/organizer/|examples/tasks/|examples/locale/|examples/treegrid/|src/widgets/tips/|examples/button/|examples/|examples/feed-viewer/|src/ext-core/examples/carousel/|examples/image-organizer/SWFUpload/|examples/history/|examples/slider/|examples/simple-widgets/|src/ext-core/examples/tabs/|examples/direct/|src/ext-core/test/yui_2.6.0/yui/build/logger/|examples/form/|examples/ux/treegrid/|docs/resources/prettify/|src/ext-core/src/util/|docs/output/|examples/message-box/|examples/grid-filtering/|ux/statusbar/|src/|src/widgets/list/|examples/writer/|src/ext-core/examples/lightbox/|examples/spinner/|docs/resources/|ux/treegrid/|test/unit/|examples/statusbar/|adapter/jquery/|test/unit/widgets/form/|examples/grouptabs/|src/ext-core/src/adapter/|examples/key-feed-viewer/|examples/shared/extjs/|src/widgets/chart/|src/ext-core/examples/rating/|src/widgets/grid/|examples/menu/|examples/ux/|test/unit/data/|test/unit/Ext/|test/unit/util/|examples/dd/|examples/shared/|examples/tasks/db/|src/widgets/form/|examples/restful/|src/ext-core/test/yui_2.6.0/yui/build/yahoo-dom-event/|src/widgets/tree/|test/performance/|examples/themes/|src/widgets/|pkgs/|examples/multiselect/|src/ext-core/examples/menu/|examples/layout-browser/layouts/|examples/tree/|ux/gridfilters/|examples/resizable/|src/widgets/layout/|src/util/|examples/ux/statusbar/|test/unit/widgets/|src/ext-core/src/core/|examples/layout-browser/|examples/grid/|examples/ux/fileuploadfield/|ux/gridfilters/menu/|examples/desktop/|examples/tabs/|examples/window/|adapter/yui/|ux/gridfilters/filter/|adapter/ext/|examples/state/|src/locale/|examples/core/|src/state/|ux/fileuploadfield/|examples/portal/|src/adapter/|examples/forum/|src/ext-core/test/yui_2.6.0/yui/build/yuitest/|examples/chart/|src/core/|examples/desktop/js/|examples/image-organizer/imgorg/|test/unit/widgets/layout/|examples/view/|ux/|src/dd/|src/ext-core/src/data/|examples/ux/gridfilters/filter/|src/widgets/menu/|examples/panel/|adapter/prototype/|src/direct/|test/unit/direct/|examples/ux/gridfilters/|src/ext-core/examples/jsonp/|examples/toolbar/|examples/ux/gridfilters/menu/|examples/image-organizer/SWFUpload/plugins/" kind="src" path="vendors/js/extjs"/>
+	<classpathentry kind="src" path="vendors/js/extjs/adapter/ext"/>
+	<classpathentry kind="src" path="vendors/js/extjs/adapter/jquery"/>
+	<classpathentry kind="src" path="vendors/js/extjs/adapter/prototype"/>
+	<classpathentry kind="src" path="vendors/js/extjs/adapter/yui"/>
+	<classpathentry kind="src" path="vendors/js/extjs/docs/output"/>
+	<classpathentry excluding="prettify/" kind="src" path="vendors/js/extjs/docs/resources"/>
+	<classpathentry kind="src" path="vendors/js/extjs/docs/resources/prettify"/>
+	<classpathentry excluding="organizer/|tasks/|locale/|treegrid/|button/|feed-viewer/|image-organizer/SWFUpload/|history/|slider/|simple-widgets/|direct/|form/|ux/treegrid/|message-box/|grid-filtering/|writer/|spinner/|statusbar/|grouptabs/|key-feed-viewer/|shared/extjs/|menu/|ux/|dd/|shared/|tasks/db/|restful/|themes/|multiselect/|layout-browser/layouts/|tree/|resizable/|ux/statusbar/|layout-browser/|grid/|ux/fileuploadfield/|desktop/|tabs/|window/|state/|core/|portal/|forum/|chart/|desktop/js/|image-organizer/imgorg/|view/|ux/gridfilters/filter/|panel/|ux/gridfilters/|toolbar/|ux/gridfilters/menu/|image-organizer/SWFUpload/plugins/" kind="src" path="vendors/js/extjs/examples"/>
+	<classpathentry kind="src" path="vendors/js/extjs/examples/button"/>
+	<classpathentry kind="src" path="vendors/js/extjs/examples/chart"/>
+	<classpathentry kind="src" path="vendors/js/extjs/examples/core"/>
+	<classpathentry kind="src" path="vendors/js/extjs/examples/dd"/>
+	<classpathentry excluding="js/" kind="src" path="vendors/js/extjs/examples/desktop"/>
+	<classpathentry kind="src" path="vendors/js/extjs/examples/desktop/js"/>
+	<classpathentry kind="src" path="vendors/js/extjs/examples/direct"/>
+	<classpathentry kind="src" path="vendors/js/extjs/examples/feed-viewer"/>
+	<classpathentry kind="src" path="vendors/js/extjs/examples/form"/>
+	<classpathentry kind="src" path="vendors/js/extjs/examples/forum"/>
+	<classpathentry kind="src" path="vendors/js/extjs/examples/grid"/>
+	<classpathentry kind="src" path="vendors/js/extjs/examples/grid-filtering"/>
+	<classpathentry kind="src" path="vendors/js/extjs/examples/grouptabs"/>
+	<classpathentry kind="src" path="vendors/js/extjs/examples/history"/>
+	<classpathentry kind="src" path="vendors/js/extjs/examples/image-organizer/imgorg"/>
+	<classpathentry excluding="plugins/" kind="src" path="vendors/js/extjs/examples/image-organizer/SWFUpload"/>
+	<classpathentry kind="src" path="vendors/js/extjs/examples/image-organizer/SWFUpload/plugins"/>
+	<classpathentry kind="src" path="vendors/js/extjs/examples/key-feed-viewer"/>
+	<classpathentry excluding="layouts/" kind="src" path="vendors/js/extjs/examples/layout-browser"/>
+	<classpathentry kind="src" path="vendors/js/extjs/examples/layout-browser/layouts"/>
+	<classpathentry kind="src" path="vendors/js/extjs/examples/locale"/>
+	<classpathentry kind="src" path="vendors/js/extjs/examples/menu"/>
+	<classpathentry kind="src" path="vendors/js/extjs/examples/message-box"/>
+	<classpathentry kind="src" path="vendors/js/extjs/examples/multiselect"/>
+	<classpathentry kind="src" path="vendors/js/extjs/examples/organizer"/>
+	<classpathentry kind="src" path="vendors/js/extjs/examples/panel"/>
+	<classpathentry kind="src" path="vendors/js/extjs/examples/portal"/>
+	<classpathentry kind="src" path="vendors/js/extjs/examples/resizable"/>
+	<classpathentry kind="src" path="vendors/js/extjs/examples/restful"/>
+	<classpathentry excluding="extjs/" kind="src" path="vendors/js/extjs/examples/shared"/>
+	<classpathentry kind="src" path="vendors/js/extjs/examples/shared/extjs"/>
+	<classpathentry kind="src" path="vendors/js/extjs/examples/simple-widgets"/>
+	<classpathentry kind="src" path="vendors/js/extjs/examples/slider"/>
+	<classpathentry kind="src" path="vendors/js/extjs/examples/spinner"/>
+	<classpathentry kind="src" path="vendors/js/extjs/examples/state"/>
+	<classpathentry kind="src" path="vendors/js/extjs/examples/statusbar"/>
+	<classpathentry kind="src" path="vendors/js/extjs/examples/tabs"/>
+	<classpathentry excluding="db/" kind="src" path="vendors/js/extjs/examples/tasks"/>
+	<classpathentry kind="src" path="vendors/js/extjs/examples/tasks/db"/>
+	<classpathentry kind="src" path="vendors/js/extjs/examples/themes"/>
+	<classpathentry kind="src" path="vendors/js/extjs/examples/toolbar"/>
+	<classpathentry kind="src" path="vendors/js/extjs/examples/tree"/>
+	<classpathentry kind="src" path="vendors/js/extjs/examples/treegrid"/>
+	<classpathentry excluding="treegrid/|statusbar/|fileuploadfield/|gridfilters/filter/|gridfilters/|gridfilters/menu/" kind="src" path="vendors/js/extjs/examples/ux"/>
+	<classpathentry kind="src" path="vendors/js/extjs/examples/ux/fileuploadfield"/>
+	<classpathentry excluding="filter/|menu/" kind="src" path="vendors/js/extjs/examples/ux/gridfilters"/>
+	<classpathentry kind="src" path="vendors/js/extjs/examples/ux/gridfilters/filter"/>
+	<classpathentry kind="src" path="vendors/js/extjs/examples/ux/gridfilters/menu"/>
+	<classpathentry kind="src" path="vendors/js/extjs/examples/ux/statusbar"/>
+	<classpathentry kind="src" path="vendors/js/extjs/examples/ux/treegrid"/>
+	<classpathentry kind="src" path="vendors/js/extjs/examples/view"/>
+	<classpathentry kind="src" path="vendors/js/extjs/examples/window"/>
+	<classpathentry kind="src" path="vendors/js/extjs/examples/writer"/>
+	<classpathentry kind="src" path="vendors/js/extjs/pkgs"/>
+	<classpathentry excluding="data/|widgets/tips/|ext-core/examples/carousel/|ext-core/examples/tabs/|ext-core/test/yui_2.6.0/yui/build/logger/|ext-core/src/util/|widgets/list/|ext-core/examples/lightbox/|ext-core/src/adapter/|widgets/chart/|ext-core/examples/rating/|widgets/grid/|widgets/form/|ext-core/test/yui_2.6.0/yui/build/yahoo-dom-event/|widgets/tree/|widgets/|ext-core/examples/menu/|widgets/layout/|util/|ext-core/src/core/|locale/|state/|adapter/|ext-core/test/yui_2.6.0/yui/build/yuitest/|core/|dd/|ext-core/src/data/|widgets/menu/|direct/|ext-core/examples/jsonp/" kind="src" path="vendors/js/extjs/src"/>
+	<classpathentry kind="src" path="vendors/js/extjs/src/adapter"/>
+	<classpathentry kind="src" path="vendors/js/extjs/src/core"/>
+	<classpathentry kind="src" path="vendors/js/extjs/src/data"/>
+	<classpathentry kind="src" path="vendors/js/extjs/src/dd"/>
+	<classpathentry kind="src" path="vendors/js/extjs/src/direct"/>
+	<classpathentry kind="src" path="vendors/js/extjs/src/ext-core/examples/carousel"/>
+	<classpathentry kind="src" path="vendors/js/extjs/src/ext-core/examples/jsonp"/>
+	<classpathentry kind="src" path="vendors/js/extjs/src/ext-core/examples/lightbox"/>
+	<classpathentry kind="src" path="vendors/js/extjs/src/ext-core/examples/menu"/>
+	<classpathentry kind="src" path="vendors/js/extjs/src/ext-core/examples/rating"/>
+	<classpathentry kind="src" path="vendors/js/extjs/src/ext-core/examples/tabs"/>
+	<classpathentry kind="src" path="vendors/js/extjs/src/ext-core/src/adapter"/>
+	<classpathentry kind="src" path="vendors/js/extjs/src/ext-core/src/core"/>
+	<classpathentry kind="src" path="vendors/js/extjs/src/ext-core/src/data"/>
+	<classpathentry kind="src" path="vendors/js/extjs/src/ext-core/src/util"/>
+	<classpathentry kind="src" path="vendors/js/extjs/src/ext-core/test/yui_2.6.0/yui/build/logger"/>
+	<classpathentry kind="src" path="vendors/js/extjs/src/ext-core/test/yui_2.6.0/yui/build/yahoo-dom-event"/>
+	<classpathentry kind="src" path="vendors/js/extjs/src/ext-core/test/yui_2.6.0/yui/build/yuitest"/>
+	<classpathentry kind="src" path="vendors/js/extjs/src/locale"/>
+	<classpathentry kind="src" path="vendors/js/extjs/src/state"/>
+	<classpathentry kind="src" path="vendors/js/extjs/src/util"/>
+	<classpathentry excluding="tips/|list/|chart/|grid/|form/|tree/|layout/|menu/" kind="src" path="vendors/js/extjs/src/widgets"/>
+	<classpathentry kind="src" path="vendors/js/extjs/src/widgets/chart"/>
+	<classpathentry kind="src" path="vendors/js/extjs/src/widgets/form"/>
+	<classpathentry kind="src" path="vendors/js/extjs/src/widgets/grid"/>
+	<classpathentry kind="src" path="vendors/js/extjs/src/widgets/layout"/>
+	<classpathentry kind="src" path="vendors/js/extjs/src/widgets/list"/>
+	<classpathentry kind="src" path="vendors/js/extjs/src/widgets/menu"/>
+	<classpathentry kind="src" path="vendors/js/extjs/src/widgets/tips"/>
+	<classpathentry kind="src" path="vendors/js/extjs/src/widgets/tree"/>
+	<classpathentry kind="src" path="vendors/js/extjs/test/performance"/>
+	<classpathentry excluding="widgets/form/|data/|Ext/|util/|widgets/|widgets/layout/|direct/" kind="src" path="vendors/js/extjs/test/unit"/>
+	<classpathentry kind="src" path="vendors/js/extjs/test/unit/data"/>
+	<classpathentry kind="src" path="vendors/js/extjs/test/unit/direct"/>
+	<classpathentry kind="src" path="vendors/js/extjs/test/unit/Ext"/>
+	<classpathentry kind="src" path="vendors/js/extjs/test/unit/util"/>
+	<classpathentry excluding="form/|layout/" kind="src" path="vendors/js/extjs/test/unit/widgets"/>
+	<classpathentry kind="src" path="vendors/js/extjs/test/unit/widgets/form"/>
+	<classpathentry kind="src" path="vendors/js/extjs/test/unit/widgets/layout"/>
+	<classpathentry excluding="statusbar/|treegrid/|gridfilters/|gridfilters/menu/|gridfilters/filter/|fileuploadfield/" kind="src" path="vendors/js/extjs/ux"/>
+	<classpathentry kind="src" path="vendors/js/extjs/ux/fileuploadfield"/>
+	<classpathentry excluding="menu/|filter/" kind="src" path="vendors/js/extjs/ux/gridfilters"/>
+	<classpathentry kind="src" path="vendors/js/extjs/ux/gridfilters/filter"/>
+	<classpathentry kind="src" path="vendors/js/extjs/ux/gridfilters/menu"/>
+	<classpathentry kind="src" path="vendors/js/extjs/ux/statusbar"/>
+	<classpathentry kind="src" path="vendors/js/extjs/ux/treegrid"/>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.wst.jsdt.USER_LIBRARY/Ext"/>
+	<classpathentry kind="output" path=""/>
+</classpath>

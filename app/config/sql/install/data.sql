@@ -1,0 +1,3 @@
+--
+-- Place here any inital data sql statements you want to install
+--
