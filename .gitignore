@@ -1,3 +1,2 @@
-app/tmp
-app/webroot/uploaded/*
+app/tmp/
 app/config/dbsettings.php
