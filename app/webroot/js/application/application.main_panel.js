@@ -1,17 +1,15 @@
 /**
  * Main panel
- * 
+ *
  * The panel where the content is displayed and the arrow buttons are
- * 
+ *
  * @package		Webhelp
  * @author      Huber Stefan <huber@xsolutions>
  * @copyright   Copyright (c) 2010, Huber Stefan
- * @version     v1.0 Beta   
+ * @version     v1.0 Beta
  * @license		http://www.opensource.org/licenses/gpl-3.0.html GNU General Public License, version 3 (GPLv3)
  * @filesource
  */
-
-
 MainPanel = function(){
 
     var data = [];
@@ -56,6 +54,7 @@ MainPanel = function(){
         name: 'Content'
     });
     
+	this.contentField.on('change', this.onContentChanged, this);
     
     this.keywordsField = new Ext.form.TextField({
         fieldLabel: 'Keywords',
@@ -121,6 +120,8 @@ MainPanel = function(){
                 
                 //this.form.setWidth(this.form.getWidth());
                 //this.form.setWidth(this.form.getWidth() + 1);	
+				this.contentChanged = false;
+				
                 this.form.show();
                 
             }
@@ -202,8 +203,34 @@ MainPanel = function(){
 
 Ext.extend(MainPanel, Ext.Panel, {
     contentId: 0,
+	
+	contentChanged: false,
     
     getContent: function(id, selectNode){
+		
+		if (this.contentChanged) {
+            Ext.Msg.show({
+                title: '&Auml;nderungen speichern?',
+                msg: 'Die &Auml;nderungen auf dieser Seite wurden noch nicht gespeichert. Jetzt speichern?',
+                buttons: Ext.Msg.YESNO,
+                fn: function(btn) {
+					if (btn == 'yes')
+					{
+						this.saveClicked();	
+					}
+					this.doLoadContent(id, selectNode);
+				},
+                animEl: 'elId',
+                icon: Ext.MessageBox.QUESTION,
+				scope: this
+            });
+		}
+		else
+			this.doLoadContent(id, selectNode);
+	},
+	
+	doLoadContent: function(id, selectNode) 
+	{
         this.contentId = id;
         
         if (selectNode === undefined) 
@@ -221,8 +248,10 @@ Ext.extend(MainPanel, Ext.Panel, {
             },
             scope: this,
             success: function(result, request){
+				this.contentChanged = false;
+				
                 data = Ext.util.JSON.decode(result.responseText);
-
+                
                 if ((data.Content.text === undefined) || (typeof(data.Content.text) != "string")) {
                     this.contentPanel.body.dom.innerHTML = '';
                     this.contentId = 0;
@@ -273,6 +302,11 @@ Ext.extend(MainPanel, Ext.Panel, {
         });
     },
     
+    onContentChanged: function(){
+		this.contentChanged = true;
+        //alert('content changed');
+    },
+    
     moveButtonClicked: function(button){
         switch (button.id) {
             case 'fbarUp':
@@ -302,6 +336,8 @@ Ext.extend(MainPanel, Ext.Panel, {
                 Ext.getCmp('linkButton').hide();
                 this.contentPanel.body.dom.innerHTML = this.contentField.getValue();
                 data.Content.keywords = this.keywordsField.getValue();
+				
+				this.contentChanged = false;				
             },
             failure: function(){
                 Ext.Msg.alert('Error', 'Saving the data was not possibly!');
@@ -321,6 +357,7 @@ Ext.extend(MainPanel, Ext.Panel, {
         this.contentPanel.show();
         Ext.getCmp('editButton').show();
         Ext.getCmp('linkButton').hide();
+		this.contentChanged = false;
     },
     
     showLogin: function(btn, event){
